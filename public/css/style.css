@@ -1,0 +1,29 @@
+/* 1. POLICE ET COMPORTEMENT GLOBAL */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600;800&display=swap');
+
+:root {
+    --bg-deep: #3d313c;      /* Fond prune sombre */
+    --rose-light: #f3d5d9;   /* Rose clair */
+    --rose-medium: #e1b1b4;  /* Vieux rose */
+    --rose-vif: #d996b8;     /* Rose orchidée */
+    --mauve: #b283a7;        /* Mauve */
+    --sf-green: #42d392;     /* Vert Symfony */
+}
+
+body {
+    background: radial-gradient(circle at top right, #7e667c, #3d313c, #1a1519);
+    color: white;
+    font-family: 'Poppins', 'Segoe UI', sans-serif; /* Poppins en priorité, Segoe en secours */
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    scroll-behavior: smooth; /* Ton ajout est ici */
+}
+
+/* 2. TES COMPOSANTS (NAVBAR, INTRO, BULLES...) */
+.navbar-brand {
+    color: var(--sf-green) !important; /* Ton ajout avec la variable */
+    font-weight: 800;
+}
+
+/* ... colle ici le reste de ton code (Navbar futuriste, intro, bubbles) ... */
